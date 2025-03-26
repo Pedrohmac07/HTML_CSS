@@ -10,6 +10,7 @@ body {
     padding: 0;
     background-color: #ddffcc;
     overflow-x: hidden;
+    min-width: 0px;
 }
 header {
     background-image: linear-gradient(#4a793e, #2e5b2d);
