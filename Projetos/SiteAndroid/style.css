@@ -103,31 +103,34 @@ div#imagemandroid {
     background-image: url('pacote-projeto-d010/imagens/dan-droids-pq.png');
     background-color: rgba(51, 255, 0, 0);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     display: block;
     width: 100;
     height: 600px;
+    background-repeat: no-repeat;
 }
 @media(min-width: 700px){
     div#imagemandroid {
         background-image: url('pacote-projeto-d010/imagens/dan-droids.png');
         background-color: rgba(51, 255, 0, 0);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         display: block;
         width: auto;
         height: 280px;
+        background-repeat: no-repeat;
     }
 }
 div#imagemulher {
     background-image: url('pacote-projeto-d010/imagens/irina-blok-pq.jpg');
     background-color: rgba(51, 255, 0, 0);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     display: block;
     width: 100;
     height: 400px;
     margin: 10px 10px;
+    background-repeat: no-repeat;
 
 }
 @media(min-width: 600px){
@@ -135,11 +138,12 @@ div#imagemulher {
         background-image: url('pacote-projeto-d010/imagens/irina-blok.jpg');
         background-color: rgba(51, 255, 0, 0);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         display: block;
         width: auto;
         height: 160px;
         margin: 10px 10px;
+        background-repeat: no-repeat;
     }
 }
 div#mascoteimg {
@@ -148,10 +152,11 @@ div#mascoteimg {
     background-image: url('pacote-projeto-d010/imagens/bugdroid.png');
     background-color: rgba(51, 255, 0, 0);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     display: block;
     
     margin: 10px auto;
+    background-repeat: no-repeat;
 }
 
 div#video {
