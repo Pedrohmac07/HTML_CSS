@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+    <style>mark{
+        background-color: cadetblue;
+    }</style>
+</head>
+<body>
+    <h1>Tipos de formatações</h1>
+    <h2>Negrito / Destacar</h2>
+    <p>Para utilizar <b>Negrito</b> só precisa utilizar a tag:b (não é semantica)</p>
+    <p>para destacar uma <strong>palavra</strong> usando tag:strong (semantica)</p>
+    <h2>Italico / Ênfase</h2>
+    <p>Para utilizar o <i>italico</i> é preciso utilizar a tag:i (não é semantica)</p>
+    <p>Para dar <em>enfase</em> a uma palavra utiliza a tag:em (semantica)</p> 
+    <h2>Texto Marcado</h2>
+    <p>Podemos criar um texto <mark>marcado</mark> usando a tag:mark</p>
+    <p>outro paragrafo <mark>outro texto marcado!</mark> (semantica)</p> 
+    <h2>Texto pequeno / Texto grande</h2>
+    <p>Para criar um texto <small>pequeno</small> usamos a tag:small (semantica)</p> 
+    <p>Para criar um texto <big>grande</big> usamos a tag:big (não é semantica)</p>
+    <h2>Inserido/deletado</h2>
+    <p>Para criarmos textos <ins>inseridos</ins> sublinhados por <ins>baixo</ins> utilizamos a tag:ins</p>
+    <p>Para criarmos texto <del>riscado</del> como se fosse <del>desconsiderado</del>, utilizamos a tag:del</p> 
+    <h2>Texto sobrescrito / texto subscrito</h2>
+    <p>Para criarmos um texto sobrescrito, por exemplo x<sup>2</sup> utilizamos a tag:sup</p>
+    <p>Para criarmos um texto subscrito, por exemplo h<sub>2</sub>o utilizamos a tag:sub</p>
+    <h2>Por que deveriamos utilizar as semanticas?</h2>
+    <p>As tags não semanticas, são antigas e descontinuadas por causa da integração com o CSS, por isso é recomendado utilizar as semanticas!</p>
+    <h1>Formatações adversas</h1>
+    <h2>Codigo-fonte</h2>
+    <p>O codigo fonte, comando <code>document.getElementById('teste')</code> utiliza a linguagem python</p>
+    <pre>
+        <code>
+num = int(input('Digite um numero'))
+if num % 2 == 0:
+    print('O numero é par')
+else:
+    print('O numero é impar')
+        <code>
+    </pre>
+    <p>Utilizando a tag:code ela faz um mono-espaçamento no seu codigo, e para ler quebra de linhas e paragrafos, pode se utilizar a tag:pre. Como podemos ver no exemplo acima, que utiliza ambas as tags</p>
+    <h2>Citações simples</h2>
+    <p>Pai do meu amigo: <q>o computador é um burro muito rapido</q></p>
+    <p>Utilize a tag:q para citações, ao invés de aspas ""</p>
+    <h2>Citações completas</h2>
+    <p>segundo um cara que vi no LinkedIn</p>
+    <blockquote cite="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-01">Como provar que você sabe programar sem nunca ter trabalhado na área?
+
+        Se você é Dev iniciante, já deve ter ouvido isso: “Sem experiência, ninguém te contrata. Mas sem emprego, como ter experiência?”
+        
+        A resposta está em um caminho que poucos seguem: Open Source + GitHub.
+        
+        1. Domine o GitHub antes de tudo
+        
+        Se seu GitHub parece um deserto, sua vida vai ser mais difícil. As empresas olham para lá para ver seu código, como você trabalha e se sabe colaborar. Então:
+         • Aprenda Git e GitHub de verdade: commits limpos, branches bem organizadas e pull requests.
+         • Crie repositórios bem documentados. README bem escrito faz diferença!
+         • Mostre que você não escreve código jogado, mas algo escalável e legível.
+        
+        2. Participe de projetos Open Source
+        
+        Isso te dá experiência real sem precisar de um emprego. Além disso, você ganha:
+        • Networking com Devs mais experientes.
+        • Código revisado por outros profissionais.
+        • Contribuições para mostrar no currículo e LinkedIn.
+        
+        Dicas para começar:
+        ✅ Encontre projetos que usam as tecnologias que você quer aprender.
+        ✅ Comece resolvendo issues fáceis para pegar o jeito.
+        ✅ Participe de discussões, mesmo que só perguntando ou sugerindo algo.
+        ✅ Faça PRs (Pull Requests) e peça feedback – é assim que você melhora rápido.
+        
+        💡 A sacada mestra
+        
+        Todos os projetos Open Source que você ajudar podem (e devem) estar no seu LinkedIn e currículo.
+        
+        Se você contribuiu para um projeto grande, isso pesa muito mais do que fazer um clone da Netflix sozinho.
+        
+        Pensa comigo: um recrutador vê dois perfis:
+        ➡️ Um tem só projetos pessoais, tipo “To-do list” e “Clone do Uber”.
+        ➡️ Outro tem contribuições em projetos usados por milhares de pessoas.
+        
+        Quem você acha que ele vai chamar para entrevista?
+        
+        O efeito colateral disso?
+        
+        Você ganha experiência antes do primeiro emprego e constrói um portfólio sólido. Quando for para uma entrevista, você já tem código publicado, contribuições e aprendizado prático.
+        
+        Agora me diz: você já contribuiu para algum projeto Open Source ou ainda está só estudando?</blockquote>
+        <h2>Abreviações</h2>
+        <p>EStou adorando estudar <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> é TOP</p>
+        <h2>Texto Invertido</h2>
+        <p><bdo dir="rtl">Invertido demais</bdo> <bdo dir="rtl">Pedro é top</bdo></p>
+</body>
+</html>

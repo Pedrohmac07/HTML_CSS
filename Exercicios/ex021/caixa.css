@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+header{
+    margin: auto;
+    width: auto;
+    
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: ridge;
+    text-align: center;
+    background-color: white;
+}
+body {
+    background-color: darkgrey;
+}
+h1#titulo {
+    border-width: 10px;
+    border-radius: 10px;
+    margin-bottom: auto;
+    margin-top: 10px;
+}
+div#small {
+    margin-bottom: 10px;
+}
+ul {
+    display: block;
+    height: 100px;
+    width: 60px;
+    margin-bottom: 70px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: white;
+}
+li {
+    margin-bottom: 6px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+div#circulo {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 50%;
+}

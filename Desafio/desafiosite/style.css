@@ -1,0 +1,227 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Android";
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+body {
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    background-color: #ddffcc;
+}
+header {
+    background-image: linear-gradient(#4a793e, #2e5b2d);
+    padding: 10px 0px 0px 0px;
+    color: white;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: "Android";
+    text-align: center;
+}
+header > article > p {
+    color: white;
+    text-shadow: 2px 1px 1px #000;
+    text-align: center;
+}
+header > h1 {
+    text-shadow: 2px 1px 1px #000;
+}
+
+header > article {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 55%;
+}
+header > section > span {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+header > section > span > p {
+    margin-right: 10px;
+}
+nav > h1 {
+    color: #4a793e;
+    font-size: 25px;
+    margin-left: 15px;
+    text-align: left;
+}
+h2, h3 {
+    background-image: linear-gradient(to right,#b8dda8 70%, white);
+    color: #4a793e;
+    text-align: left;
+    margin-left: 15px;
+}
+body > section {
+    background-color: white;
+    padding: 10px 0;
+    margin: 0 0;
+}
+@media(min-width: 600px){
+    body > section {
+        background-color: white;
+        padding: 10px 0;
+        margin: 0px 20px 20px 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 20px;
+    margin: 0 10px;
+    color: #000;
+    font-size: 18px;
+}
+
+abbr {
+    text-decoration: none;
+    color: #4a793e;
+}
+abbr:hover {
+    text-decoration: underline dotted;
+}
+
+a  {
+    text-decoration: none;
+    color: #4a793e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+div#imagemandroid {
+    background-image: url('pacote-projeto-d010/imagens/dan-droids-pq.png');
+    background-color: rgba(51, 255, 0, 0);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100;
+    height: 600px;
+}
+@media(min-width: 700px){
+    div#imagemandroid {
+        background-image: url('pacote-projeto-d010/imagens/dan-droids.png');
+        background-color: rgba(51, 255, 0, 0);
+        background-position: center;
+        background-size: cover;
+        display: block;
+        width: auto;
+        height: 280px;
+    }
+}
+div#imagemulher {
+    background-image: url('pacote-projeto-d010/imagens/irina-blok-pq.jpg');
+    background-color: rgba(51, 255, 0, 0);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100;
+    height: 400px;
+    margin: 10px 10px;
+
+}
+@media(min-width: 600px){
+    div#imagemulher {
+        background-image: url('pacote-projeto-d010/imagens/irina-blok.jpg');
+        background-color: rgba(51, 255, 0, 0);
+        background-position: center;
+        background-size: cover;
+        display: block;
+        width: auto;
+        height: 160px;
+        margin: 10px 10px;
+    }
+}
+div#mascoteimg {
+    width: 300px;
+    height: 200px;
+    background-image: url('pacote-projeto-d010/imagens/bugdroid.png');
+    background-color: rgba(51, 255, 0, 0);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    
+    margin: 10px auto;
+}
+
+div#video {
+    background-color: #2e5b2d;
+    align-content: center;
+    margin: 0 auto;
+    height: 400px;
+}
+div > iframe {
+    display: block;
+    border-style: none;
+    margin: 10px auto;
+    height: 380px;
+    width: 440px;
+}
+@media(min-width: 600px){
+    div > iframe {
+        display: block;
+        border-style: none;
+        margin: 10px auto;
+        height: 380px;
+        width: 90%;
+    }
+}
+footer#saibamais {
+    margin: 10px;
+    background-color: #4a793e;
+    padding: 0px 0px 0px 0px;
+    height: auto;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+div#titulo {
+    background-color: #2e5b2d;
+    font-size: 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div#titulo {
+    font-size: 20px;
+    padding-left: 20px;
+}
+p#curiosidades {
+    text-align: justify;
+    text-indent: 20px;
+    color: #000;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div#boxs {
+    display: flex;
+    gap: 20%;
+    padding: 0px;
+
+}
+
+ul {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+footer#creditos {
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 25px;
+    text-align: center;
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Redimensionamento de imagens de acordo com o tamanho da tela</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/fotos-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/fotos-m.png" type="image/png">
+        <img src="imagens/fotos-g.png" alt="Imagem Grande">
+    </picture>
+    <h1>Audios</h1>
+    <p>Os arquivos de audio MP3 WAV e OGG são compartiveis com o HTML</p>
+    <h2>Hurricane - Kanye West</h2>
+    <audio preload="metadata" controls>
+        <source src="midia/Kanye West - Hurricane [ ezmp3.cc ].mp3" type="audio/mpeg">
+        <p>Seu navegador não tanka sistema de audios, <a href="midia/Kanye West - Hurricane [ ezmp3.cc ].mp3">clique aqui</a> para fazer o download</p>
+    </audio>
+    <p>Essa musica tem copyright mas é muito foda!</p>
+    <h1>Videos</h1>
+    <h2>Programando</h2>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 20px;
+    color: #333;
+}
+
+div:hover.p {
+    background-color: #f1f1f1;
+    font-family: "comic sans ms";
+}
+
+div#escondido > p {
+    display: none;
+}
+div#escondido:hover > p {
+    display: block;
+}
