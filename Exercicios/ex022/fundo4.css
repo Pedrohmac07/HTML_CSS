@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    height: 100vh;
+    background-image: url("https://www.pngplay.com/wp-content/uploads/9/Kanye-West-Transparent-Image.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
