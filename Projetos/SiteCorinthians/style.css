@@ -28,7 +28,9 @@ div#logo{
     height: 10px;
     margin-left: 5vw;
 }
-
+header > p {
+    font-size: 2vw;
+}
 h1 {
     font-size: 7vw;
 }
