@@ -35,15 +35,17 @@ h1 {
     font-size: 7vw;
 }
 
-section > p {
-    text-align: justify;
+section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+}
+
+section > p {
+    text-align: justify;
     line-height: 2em;
     font-size: 3.5vw;
 }
-
 section.img {
     background-color: rgba(0, 0, 0, 0.596);
     background-size: cover;
@@ -54,8 +56,6 @@ section.img > p {
     background-color: rgba(0, 0, 0, 0.74);
     color: white;
     display: inline-block;
-    margin-left: 20px;
-    padding: 10px;
     border-radius: 20px;
 }
 #img01 {
