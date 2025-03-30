@@ -49,8 +49,8 @@ section > p {
 section.img {
     background-color: rgba(0, 0, 0, 0.596);
     background-size: cover;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
     padding-left: 30px;
     background-position: center;
     background-attachment: fixed;
