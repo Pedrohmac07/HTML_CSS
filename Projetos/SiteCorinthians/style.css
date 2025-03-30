@@ -68,13 +68,7 @@ section.img > p {
     background-image: url(https://www.estadao.com.br/resizer/v2/TVMKJDI6LVCCVILA6LAQSNWT5A.jpg?quality=80&auth=8487a80195abeaa8564bda71e290c62e18e8b1f1e8f5cb3077357c8a339f3ba5&height=360);
     filter: grayscale(1);
 }
-#campeao {
-    display: inline-block;
-    text-align: center;
-    padding-left: 10vw;
-    font-family: corinthians;
-    color: white;
-}
+
 
 footer{
     background-color: black;
