@@ -7,11 +7,20 @@ body {
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 td, th {
     border: 1px solid black;
     padding: 10px;
     
+}
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: grey;
+}
+td.num {
+    text-align: right;
 }
 thead, tfoot {
     background-color: gray;
@@ -19,4 +28,13 @@ thead, tfoot {
 }
 tbody {
     border-collapse: collapse;
+}
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
+}
+
+section > p {margin-right: 500px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
 }
