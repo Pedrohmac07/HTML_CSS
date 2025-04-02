@@ -32,5 +32,10 @@
     <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" width="500"
     height="250" scrolling="auto" name="frame">Seu navegador ou extensão não é compativel com iframe.</iframe>
     <p>tamanho padrão de um iframe é 300x150</p>
+    <h2>teste de segurança utilizando referrer e sandbox</h2>
+    <iframe src="index.html" sandbox="sandbox" referrerpolicy="no-referrer">Erro.</iframe>
+
+    <h2>Bloqueando iFrames com scripts</h2>
+    <iframe src="script.html" frameborder="0" referrerpolicy="no-referrer" sandbox="sandbox"></iframe>
 </body>
 </html>
