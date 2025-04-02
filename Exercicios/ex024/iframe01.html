@@ -4,15 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iFrames</title>
+    <style>
+        iframe {
+            display: block;
+            margin: auto;
+            width: 90vw;
+            height: 400px;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando iFrames</h1>
     <p>
         site do wikipedia sobre feijão tropeiro
     </p>
-    <iframe src="https://pt.wikipedia.org/wiki/Feij%C3%A3o-tropeiro" frameborder="1" width="500"
-    height="250" scrolling="auto">Wikipedia feijão tropeiro</iframe>
+
+    <ul>
+        <li>
+            <a href="iframe02.html" target="frame">Primeira pag</a>
+        </li>
+        <li>
+            <a href="https://pt.wikipedia.org/wiki/Feij%C3%A3o-tropeiro" target="frame">Segunda pag</a>
+        </li>
+    </ul>
+
+    <p>Este iFrame a baixo é 500x250</p>
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" width="500"
+    height="250" scrolling="auto" name="frame">Seu navegador ou extensão não é compativel com iframe.</iframe>
     <p>tamanho padrão de um iframe é 300x150</p>
-    <p>Este iFrame em cima é 500x250</p>
 </body>
 </html>
