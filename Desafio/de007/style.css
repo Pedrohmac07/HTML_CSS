@@ -36,3 +36,13 @@ section#celular {
 section#redesociais {
 
 }
+
+iframe#tela {
+    position: relative;
+    top: 40px;
+    left: 5px;
+    width: 280px;
+    height: 550px;
+    border: none;
+    background-color: transparent;
+}
