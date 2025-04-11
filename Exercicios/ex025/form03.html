@@ -8,11 +8,25 @@
 <body>
     <h1>Formulario</h1>
     <h2></h2>
-    <p>
-        <label for="inome">
-            Nome: 
-            <input type="text" name="nome" id="inome" required minlength="3" maxlength="40" size="27" placeholder="Digite seu nome" autocomplete="name">
-        </label>
-    </p>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">
+                Nome:
+                <input type="text" name="nome" id="inome" required minlength="3" maxlength="40" size="27" placeholder="Digite seu nome completo" autocomplete="name">
+            </label>
+        </p>
+        <p>
+            <label for="imedia">
+                Média:
+                <input type="number" name="media" id="imedia" required size="10" placeholder="Digite sua média" autocomplete="off" min="0" max="10" step="0.1">
+        </p>
+        <p><label for="imes">Insira seu mes de aniversario:
+            <input type="month" name="mes" id="imes" required value="2012-04">
+        </label></p>    
+        <p>
+            <input type="submit" value="Enviar" id="Enviar">
+            <input type="reset" value="Limpar" id="Limpar">
+        </p>
+    </form>
 </body>
 </html>
