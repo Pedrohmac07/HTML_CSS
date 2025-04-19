@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario P10</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Dados do cliente</legend>
+            <p>
+                <label for="ano">Insira sua data de nascimento:</label>
+                <input type="number" name="ano" id="ano" placeholder="Ano" min="1900" max="2023" required oninput="calcularIdade()">
+            </p>
+            <p>
+                <label for="idade">Sua idade é</label>
+                <output id="idade">0</output>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <script>
+        function calcularIdade() {
+            const anoAtual = new Date().getFullYear();
+            const anoNascimento = document.getElementById('ano').value;
+            const idade = anoAtual - anoNascimento;
+            document.getElementById('idade').value = idade;
+        }
+    </script>
+</body>
+</html>

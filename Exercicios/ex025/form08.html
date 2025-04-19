@@ -6,16 +6,30 @@
     <title>Forms</title>
 </head>
 <body>
-    <fieldset>
-        <legend>Dados do cliente</legend>
+    <form action="">
+        <fieldset>
+            <legend>Dados do cliente</legend>
+            <p>
+                <label for="num1">Numero 1:</label>
+                <input type="number" name="num1" id="num1" required oninput="soma.innerHTML = parseInt(num1.value) + parseInt(num2.value) + parseInt(num3.value);">
+            </p>
+            <p>
+                <label for="num2">Numero 2:</label>
+                <input type="number" name="num2" id="num2" required oninput="soma.innerHTML = parseInt(num1.value) + parseInt(num2.value) + parseInt(num3.value);">
+            </p>
+            <p>
+                <label for="num3">Numero 3:</label>
+                <input type="number" name="num3" id="num3" required oninput="soma.innerHTML = parseInt(num1.value) + parseInt(num2.value) + parseInt(num3.value);">
+            </p>
+
+            <p><label for="soma">Somatória</label>
+                <output name="soma" id="soma">0</output>
+            </p>
+        </fieldset>
         <p>
-            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
-    </fieldset>
-    <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
-    </p>
-</form>
+    </form>
 </body>
 </html>

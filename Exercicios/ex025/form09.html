@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios P9</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Dados do cliente</legend>
+            <p>
+                <label for="num">Numero:</label>
+                <input type="range" name="num" id="num" min="0" max="10" step="1" value="0" oninput="val.innerHTML = num.value">
+                <output id="val">0</output>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
