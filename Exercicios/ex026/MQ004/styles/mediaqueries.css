@@ -19,14 +19,8 @@ Extra large screens, TV – 1201px, and more.
     img#tablet { display: none;}
 }
 
-@media screen and (max-width: 480px) {
-    img#phone { display: block;}
-    img#desktop { display: none;}
-    img#print { display: none;}
-    img#tv { display: none;}
-    img#tablet { display: none;}
-}
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    body {background-image: url(../imgs/back-tablet.jpg);}
     img#phone { display: none;}
     img#desktop { display: none;}
     img#print { display: none;}
