@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site top</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+    <header>
+        <h1>Site Top</h1>
+        <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="items">
+            <ul>
+                <li>
+                    <a href="#">Top 3 Lorem Ipsum</a>
+                </li>
+                <li>
+                    <a href="#">Top 3 musicas de Donda 2</a>
+                </li>
+                <li>
+                    <a href="#">Top 3 albums do ye</a>
+                </li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Top 3 lorem ipsum</h2>
+            <h3>Primeiro lugar</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ut nesciunt nostrum eaque cum iure eos eius voluptate cupiditate corrupti, nemo et consequuntur incidunt autem? Quibusdam vero libero non maiores?
+            </p>
+            <h3>Segundo lugar</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minus at optio minima consequuntur, soluta ipsa quod, vitae impedit et expedita modi rerum dolor veritatis laboriosam quisquam, quis excepturi? Provident.</p>
+            <h3>Terceiro lugar</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quibusdam nisi? Excepturi delectus, quisquam, porro eos ea quas adipisci autem non exercitationem vel voluptatibus esse. Inventore nesciunt deleniti ratione assumenda.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (items.style.display == "block") {
+                items.style.display = "none";
+            } else {
+                items.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
