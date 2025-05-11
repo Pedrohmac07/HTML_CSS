@@ -2,44 +2,105 @@
 
 
 @media screen and (min-width: 768px) {
+    body {
+    background-color: #0e1113;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #181C1F;
+    width: 250px;
+    padding: 10px;
+}
+h2 {
+    font-size: 2em;
+    color: #F0F0F0;
+    background-color: #0000004f;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 20px;
+}
+h3 {
+    font-size: 1.5em;
+    color: #F0F0F0;
+    margin: 20px;
+}
+p {
+    color: #BCBFC1;
+    font-size: 1.4em;
+    margin: 20px;
+}
+header {
+    width: 100%;
+    border-bottom: #BCBFC1 solid 1px;
+}
 
-    menu {
-        display: flex;
-        width: 100%;
-    }
-    menu > ul > li {
-        display: inline-block;
-        padding: 0px 20px;
-        background-color: #181C1F;
-        width: 190px;
-    }
-    #menu {
-    display: none;
-    }
-    #menu:hover {
-        background-color: #181C1F;
-        color: #ffffff;
-        text-decoration: underline;
-        margin: auto;
-        padding: 10px;
-        cursor: pointer;
-    }
-    ul {
-    padding: 0px;
-    margin: 10px;
-    }
-    li {
-        list-style: none;
-        padding: 10px;
-        margin: auto;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-top: 0px solid #000000;
-    }
-    li:hover {
+main {
+    width: 70vw;
+    margin: auto;
+    margin-top:  10px;
+    margin-bottom: 2px;
+}
+article {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    color: #BCBFC1;
+}
+article:hover {
     background-color: #181C1F;
+    color: #ffffff;
+}
+
+menu {
     padding: 0px;
+    margin: auto;
+    border-top: #BCBFC1 solid 0px;
+}
+ul {
+    padding: 0px;
+    margin: auto;
+    margin-left: 15vw;
+    display: block;
+}
+li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top: 2px solid #000000;
+    width: 200px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+}
+li:hover {
+    background-color: #181C1F;
+    padding: 10px;
     color: #ffffff;
     text-decoration: underline;
+}
+a {
+    color: #BCBFC1;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+}
+
+#menu {
+    display: none;
+}
+
+menu {
+    display: block;
 }
 }
