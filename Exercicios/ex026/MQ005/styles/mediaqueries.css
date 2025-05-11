@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) {
+
+    menu {
+        display: flex;
+        width: 100%;
+    }
+    menu > ul > li {
+        display: inline-block;
+        padding: 0px 20px;
+        background-color: #181C1F;
+        width: 190px;
+    }
+    #menu {
+    display: none;
+    }
+    #menu:hover {
+        background-color: #181C1F;
+        color: #ffffff;
+        text-decoration: underline;
+        margin: auto;
+        padding: 10px;
+        cursor: pointer;
+    }
+    ul {
+    padding: 0px;
+    margin: 10px;
+    }
+    li {
+        list-style: none;
+        padding: 10px;
+        margin: auto;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top: 0px solid #000000;
+    }
+    li:hover {
+    background-color: #181C1F;
+    padding: 0px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+}
