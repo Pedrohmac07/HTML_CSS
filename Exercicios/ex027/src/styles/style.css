@@ -1,0 +1,13 @@
+div.container {
+    background-color: salmon;
+    
+    display: flex;
+}
+
+div.item {
+    color: black;
+    background-color: azure;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
