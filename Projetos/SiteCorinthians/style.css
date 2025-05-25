@@ -51,7 +51,7 @@ section.img {
     background-size: cover;
     padding-top: 10vw;
     padding-bottom: 10vw;
-    padding-left: 30px;
+    padding-left: 20px;
     background-position: center;
     background-attachment: fixed;
 }
@@ -60,6 +60,7 @@ section.img > p {
     color: white;
     display: inline-block;
     border-radius: 20px;
+    padding: 15px;
 }
 #img01 {
     background-image: url(pacoteprojeto/imagens/elencofumando.jpg);
@@ -84,4 +85,13 @@ a {
 a:hover {
     text-decoration: underline;
     color: rgb(201, 201, 201);
+}
+
+div {
+    text-align: center;
+    color: gold;
+}
+h2 > strong {
+    -webkit-text-stroke: 0.5px white;
+    font-size: 32px;
 }
